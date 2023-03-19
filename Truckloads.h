@@ -10,6 +10,6 @@ class Truckloads{
     int t_load;
 
     Truckloads();
-    int numtruck(int num_c, int t_load);
+    int numTruck(int num_c, int t_load);
     //void count(int num_c, int t_load);
 };
