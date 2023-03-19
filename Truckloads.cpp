@@ -11,7 +11,7 @@ Truckloads :: Truckloads(){
     
 }
 
-int Truckloads :: numTruck (int num_c, int t_load){
+int Truckloads :: numtruck (int num_c, int t_load){
 
     if(t_load>=num_c){
 
@@ -22,7 +22,7 @@ int Truckloads :: numTruck (int num_c, int t_load){
     int half_a=num_c/2;
     int half_b=num_c-half_a;
 
-    return numTruck(half_a, t_load)+numTruck(half_b, t_load);
+    return numtruck(half_a, t_load)+numtruck(half_b, t_load);
 }
 
 /*int Truckloads :: count(int num_c, int t_load){
